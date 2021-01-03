@@ -5,7 +5,7 @@
 my_list = [1, 2, 4, 8, 16, 32]
 
 a = int(len(my_list))
-#print(a)
+# print(a)
 
 new_list = [0, 0, 0, 0, 0, 0]  # если нужно создать новый список, а не из
 # менять существующий
@@ -18,5 +18,16 @@ while i < a:
     # i += 1
      new_list[i] = my_list[i] * (-2)
      i += 1
-print(my_list)
+
+#p rint(my_list)
 print(new_list)
+
+
+# Решение задачи с помощью цикла for.
+
+
+list_for = []
+
+for i in my_list:
+    list_for.append(i *(-2))
+print(list_for)
