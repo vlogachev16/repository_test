@@ -4,7 +4,7 @@
 
 # Дюймы в сантиметры
 
-def inchCm(number):
+def inchCm(number: int) -> int:
     result = number * 2.54
     return result
 
@@ -12,7 +12,7 @@ def inchCm(number):
 
 # Сантиметры в дюймы
 
-def cmInch(number):
+def cmInch(number: int) -> int:
     result = number * 0.39
     return result
 
@@ -20,7 +20,7 @@ def cmInch(number):
 
 # Мили в километры
 
-def milesKm(number):
+def milesKm(number: int) -> int:
     result = number * 1.60
     return result
 
@@ -28,7 +28,7 @@ def milesKm(number):
 
 # Километры в мили
 
-def kmMiles(number):
+def kmMiles(number: int) -> int:
     result = number * 0.62
     return result
 
@@ -37,7 +37,7 @@ def kmMiles(number):
 
 # Фунты в килограммы
 
-def poundKg(number):
+def poundKg(number: int) -> int:
     result = number * 0.45
     return result
 
@@ -45,43 +45,43 @@ def poundKg(number):
 
 # Килограммы в фунты
 
-def kgPound(number):
+def kgPound(number: int) -> int:
     result = number * 2.20
     return result
 
 # Унции в граммы
 
-def ounceGr(number):
+def ounceGr(number: int) -> int:
     result = number * 28
     return result
 
 # Граммы в Унции
 
-def grOunce(number):
+def grOunce(number: int) -> int:
     result = number * 0.03
     return result
 
 # Галлон в литры
 
-def gallonL(number):
+def gallonL(number: int) -> int:
     result = number * 3.78
     return result
 
 # Литр в галлоны
 
-def lGallon(number):
+def lGallon(number: int) -> int:
     result = number * 0.26
     return result
 
 # Пинты в литры
 
-def pintL(number):
+def pintL(number: int) -> int:
     result = number * 0.47
     return result
 
 # Литры в Пинты
 
-def lPint(number):
+def lPint(number: int) -> int:
     result = number * 2.11
     return result
 
@@ -123,3 +123,39 @@ while True:
         print(pintL(float(input())))
     elif a in '12':
         print(lPint(float(input())))
+
+if __name__ == '__main__':
+    inchCm()
+
+if __name__ == '__main__':
+    cmInch()
+
+if __name__ == '__main__':
+    milesKm()
+
+if __name__ == '__main__':
+    kmMiles()
+
+if __name__ == '__main__':
+    poundKg()
+
+if __name__ == '__main__':
+    kgPound()
+
+if __name__ == '__main__':
+    ounceGr()
+
+if __name__ == '__main__':
+    grOunce()
+
+if __name__ == '__main__':
+    gallonL()
+
+if __name__ == '__main__':
+    lGallon()
+
+if __name__ == '__main__':
+    pintL()
+
+if __name__ == '__main__':
+    lPint()
