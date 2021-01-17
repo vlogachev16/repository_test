@@ -5,6 +5,18 @@
 # Дюймы в сантиметры
 
 def inchCm(number: int) -> int:
+    """Функция конвертирующая дюймы в сантиметры.
+
+    Parameters
+    ----------
+
+    number: int
+
+    Returns
+    -------
+
+    Возвращает результат вычесления (float)"""
+
     result = number * 2.54
     return result
 
@@ -13,6 +25,18 @@ def inchCm(number: int) -> int:
 # Сантиметры в дюймы
 
 def cmInch(number: int) -> int:
+    """Функция конвертирующая сантиметры в дюймы
+
+    Parameters
+    ----------
+
+    number: int
+
+    Returns
+    -------
+
+    Возвращает результат вычесления (float)"""
+
     result = number * 0.39
     return result
 
@@ -21,6 +45,18 @@ def cmInch(number: int) -> int:
 # Мили в километры
 
 def milesKm(number: int) -> int:
+    """Функция конвертирующая мили в километры
+
+    Parameters
+    ----------
+
+    number: int
+
+    Returns
+    -------
+
+    Возвращает результат вычесления (float)"""
+
     result = number * 1.60
     return result
 
@@ -29,6 +65,18 @@ def milesKm(number: int) -> int:
 # Километры в мили
 
 def kmMiles(number: int) -> int:
+    """Функция конвертирующая километры в мили
+
+    Parameters
+    ----------
+
+    number: int
+
+    Returns
+    -------
+
+    Возвращает результат вычесления (float)"""
+
     result = number * 0.62
     return result
 
@@ -38,6 +86,18 @@ def kmMiles(number: int) -> int:
 # Фунты в килограммы
 
 def poundKg(number: int) -> int:
+    """Функция конвертирующая фунты в килограммы
+
+    Parameters
+    ----------
+
+    number: int
+
+    Returns
+    -------
+
+    Возвращает результат вычесления (float)"""
+
     result = number * 0.45
     return result
 
@@ -46,42 +106,125 @@ def poundKg(number: int) -> int:
 # Килограммы в фунты
 
 def kgPound(number: int) -> int:
+    """Функция конвертирующая килограммы в фунты
+
+    Parameters
+    ----------
+
+    number: int
+
+    Returns
+    -------
+
+    Возвращает результат вычесления (float)"""
+
     result = number * 2.20
     return result
 
 # Унции в граммы
 
 def ounceGr(number: int) -> int:
+    """Функция конвертирующая унции в граммы
+
+    Parameters
+    ----------
+
+    number: int
+
+    Returns
+    -------
+
+    Возвращает результат вычесления (float)"""
+
     result = number * 28
     return result
 
 # Граммы в Унции
 
 def grOunce(number: int) -> int:
+    """Функция конвертирующая граммы в унции
+    Parameters
+    ----------
+
+    number: int
+
+    Returns
+    -------
+
+    Возвращает результат вычесления (float)"""
+
     result = number * 0.03
     return result
 
 # Галлон в литры
 
 def gallonL(number: int) -> int:
+    """Функция конвертирующая галлоны в литры
+
+    Parameters
+    ----------
+
+    number: int
+
+    Returns
+    -------
+
+    Возвращает результат вычесления (float)"""
+
     result = number * 3.78
     return result
 
 # Литр в галлоны
 
 def lGallon(number: int) -> int:
+    """Функция конвертирующая литры в галлоны
+
+    Parameters
+    ----------
+
+    number: int
+
+    Returns
+    -------
+
+    Возвращает результат вычесления (float)"""
+
     result = number * 0.26
     return result
 
 # Пинты в литры
 
 def pintL(number: int) -> int:
+    """Функция конвертирующая пинты в литры
+
+    Parameters
+    ----------
+
+    number: int
+
+    Returns
+    -------
+
+    Возвращает результат вычесления (float)"""
+
     result = number * 0.47
     return result
 
 # Литры в Пинты
 
 def lPint(number: int) -> int:
+    """Функция конвертирующая литры в пинты
+
+    Parameters
+    ----------
+
+    number: int
+
+    Returns
+    -------
+
+    Возвращает результат вычесления (float)"""
+
     result = number * 2.11
     return result
 
@@ -124,38 +267,48 @@ while True:
     elif a in '12':
         print(lPint(float(input())))
 
-if __name__ == '__main__':
-    inchCm()
+def main():
+    if __name__ == '__main__':
+        inchCm()
 
-if __name__ == '__main__':
-    cmInch()
+def main():
+    if __name__ == '__main__':
+        cmInch()
 
-if __name__ == '__main__':
-    milesKm()
+def main():
+    if __name__ == '__main__':
+        milesKm()
 
-if __name__ == '__main__':
-    kmMiles()
+def main():
+    if __name__ == '__main__':
+        kmMiles()
+def main():
+    if __name__ == '__main__':
+        poundKg()
 
-if __name__ == '__main__':
-    poundKg()
+def main():
+    if __name__ == '__main__':
+        kgPound()
 
-if __name__ == '__main__':
-    kgPound()
+def main():
+    if __name__ == '__main__':
+        ounceGr()
 
-if __name__ == '__main__':
-    ounceGr()
+def main():
+    if __name__ == '__main__':
+        grOunce()
 
-if __name__ == '__main__':
-    grOunce()
+def main():
+    if __name__ == '__main__':
+        gallonL()
 
-if __name__ == '__main__':
-    gallonL()
+def main():
+    if __name__ == '__main__':
+        lGallon()
 
-if __name__ == '__main__':
-    lGallon()
-
-if __name__ == '__main__':
-    pintL()
-
-if __name__ == '__main__':
-    lPint()
+def main():
+    if __name__ == '__main__':
+        pintL()
+def main():
+    if __name__ == '__main__':
+        lPint()
