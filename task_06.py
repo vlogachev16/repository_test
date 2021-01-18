@@ -3,4 +3,5 @@
 # {‘abc’: 5} -> {‘abcabc’: 5}
 
 
-print((lambda **kwargs:{key*2: item for key, item in kwargs.items()})(abc = 5))
+
+print((lambda **kwargs:{key*2: item for key, item in kwargs.items()})(abc=5))
